@@ -1,4 +1,4 @@
-// import Button from '@material-ui/core/Button';
+ import Button from '@material-ui/core/Button';
 // import IconButton from '@material-ui/core/IconButton';
 // import DeleteIcon from '@material-ui/icons/Delete';
 // import AlarmIcon from '@material-ui/icons/Alarm';
@@ -18,8 +18,8 @@
 
 const MultiButton=(event)=>{
     var output=[];
-       output.push(<button onClick>I'm 18</button>)
-       output.push(<button onClick>I'm not 18</button>)
+       output.push(<Button onClick>Join</Button>)
+       output.push(<Button onClick>New Member?</Button>)
        return output;
    }
 

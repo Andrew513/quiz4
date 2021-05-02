@@ -1,6 +1,5 @@
 // import logo from './logo.svg';
 import './App.css';
-//import multiButton from './cgu_multiButton.js'
 import HelloCGU from './HelloCGU.js'
 import MyForm from './myform';
 
@@ -29,9 +28,10 @@ function App() {
 function App() {
   return(
     <div className="App">
+      <div style={{backgroundImage: 'url(' + require('./yellowstone.png') + ')'}}></div> 
     <div>
       {HelloCGU()}
-    </div>
+    </div>  
     {/* <div>
       {multiButton()}
     </div> */}
